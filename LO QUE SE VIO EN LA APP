@@ -18,5 +18,7 @@ A modo general se vio básicamente:
 -.Cómo hacer una petición a una api.
 -.Cómo tener limpia la petición (http params).
 -.Cómo construir un servicio con la petición.
+-.La utilización de https://app.quicktype.io/ para crear un interfaz con los tipos de dato del request de la api. Esa interfaz después se usa para que typescript
+sepa cuáles son los tipos de dato en el objeto que devuelve el llamado de la api.
 -.Cómo los componentes utilizan ese servicio de petición.
 -.Cómo guardar en localstorage.
