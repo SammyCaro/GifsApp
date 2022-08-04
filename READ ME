@@ -1,0 +1,22 @@
+Aplicación de gifs:
+
+Componentes: 
+
+1-. sidebar: contiene el historial de búsqueda y al hacer click en uno de los elementos hace nuevamente la petición a la api.
+
+2-. buscar: se compone de un input para ingresar un valor y hacer un request con ese valor.
+
+3-. Componente para mostrar los gifs.
+
+Lo que se hizo y vio:
+
+-. Se creó servicio para obtener el historial, mostrar resultados y hacer la petición a la api.
+-. En el servicio se utiliza HTTP, HTTP PARAMS y LOCALSTORAGE.
+-.En el LOCALSTORAGE se guarda tanto el historial como los resultados para que se sigan mostrando una vez se recarga la página.
+
+A modo general se vio básicamente:
+-.Cómo hacer una petición a una api.
+-.Cómo tener limpia la petición (http params).
+-.Cómo construir un servicio con la petición.
+-.Cómo los componentes utilizan ese servicio de petición.
+-.Cómo guardar en localstorage.
